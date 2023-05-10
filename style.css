@@ -1,0 +1,102 @@
+body{
+    margin: none;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+}
+button{
+    border: none;
+    height: 30px;
+    border-radius: 5px;
+}
+#input-search{
+    width: 100%;
+    height: 30px;
+    border: none;
+    margin: 0 5px;
+}
+input:focus{
+    outline: none;
+}
+a:link{
+    text-decoration: none;
+}
+a:visited{
+    color: rgb(142, 49, 230);
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+#logo{
+    width: 80%;
+    padding-left: 70px;
+    align-items: center; 
+}
+.centro{
+    width: 100%;
+    max-width: 700px;
+    margin: auto;
+    margin-top: 8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.busqueda{
+    width: 90%;
+    margin-top: 15px;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 25px;
+    border: 0.5px;
+    border-style: solid;
+    border-color: rgb(142, 49, 230);
+    transition: all 1s ease;
+}
+.menu{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.menu-item{
+    margin: 10px 5px;
+    cursor: pointer;
+}
+.icon{
+    display: grid;
+    align-content: center;
+    color: rgb(142, 49, 230)
+}
+.icon:hover{
+    cursor: pointer;
+}
+.btn-search{
+    margin-top: 15px;
+    width: 270px;
+    display: flex;
+    justify-content: space-between;
+}
+.btn-search #search{
+    border: double;
+    border-color: grey;
+}
+.btn-search #lucky{
+    border: double;
+    border-color: grey;
+}
+button:hover{
+    cursor: pointer;
+    box-shadow: 0 4px 16px rgba(49, 138, 172, 1);
+}
+footer{
+    width: auto;
+    margin-top: 150px;
+    align-content: space-between;
+}
+.footer-url1{
+    text-align: left;
+    
+}
+.footer-url2{
+    text-align: right;
+}   
